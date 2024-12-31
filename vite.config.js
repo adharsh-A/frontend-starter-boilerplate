@@ -9,10 +9,11 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [
-        'react',
-        'react-dom',
+
       ]
     }
+  },
+  optimizeDeps: {
   },
   css: {
     postcss: "./postcss.config.js",
